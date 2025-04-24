@@ -10,7 +10,6 @@ public class RetourVaisseau : MonoBehaviour
         // Si isPressed est vrai, charger la scène "Lune"
         if (isPressed)
         {
-            Debug.Log("COUCOU");  // Affiche "COUCOU" dans la console
             SceneManager.LoadScene("Lune");  // Charge la scène "Lune"
         }
     }
