@@ -16,7 +16,6 @@ public class asteroides : MonoBehaviour
     public GameObject motor;
     public GameObject battery;
     public GameObject citerne;
-    public GameObject robotCuisto;
     public GameObject cube1PanneauxSolaires;
     public GameObject cube2PanneauxSolaires;
     public GameObject cube3PanneauxSolaires;
@@ -36,7 +35,6 @@ public class asteroides : MonoBehaviour
         battery.SetActive(false);
         citerne.SetActive(false);
         motor2.SetActive(false);
-        robotCuisto.SetActive(false);
         cube1PanneauxSolaires.SetActive(false);
         cube2PanneauxSolaires.SetActive(false);
         cube3PanneauxSolaires.SetActive(false);
