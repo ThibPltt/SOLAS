@@ -10,7 +10,7 @@ Serious game for learning astronomy in VR.
 |---|---|
 | **Dates** | 2024 – 2025 |
 | **Context** | virtual reality · project lead, team of 4 · ENSIM |
-| **Technologies** | VR · Unity · C# · Blender |
+| **Technologies** | VR · Unity · C# · XR Interaction Toolkit · Blender |
 | **Video** | [Gameplay video on YouTube](https://www.youtube.com/watch?v=2curbw4u178) |
 | **Case study** | [thibautplatet.com/en/projects/solas.html](https://thibautplatet.com/en/projects/solas.html) |
 
