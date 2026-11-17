@@ -163,3 +163,31 @@ Open the project with Unity **2022.3.50f1** (XR Interaction Toolkit 2.6, OpenXR)
 ## Credits
 
 Project led by Thibaut Platet with Adélie Brunel, Arthur Lecureur and Pauline De Vittori, ENSIM (Interaction Personnes-Systèmes, 4th year). The full history comes from the team’s original repository, [Lecureur-Arthur/SOLAS](https://github.com/Lecureur-Arthur/SOLAS); its French README is kept in [Historic_README.md](Historic_README.md). Models, textures and sounds from the Unity Asset Store (lunar base, asteroids, ship, landscapes) keep their own licences.
+
+## Licence
+
+The code and the original content of this repository (scripts, scenes, prefabs, own models, textures and sounds) are released under the [MIT licence](LICENSE). The team members keep the copyright on their own contributions.
+
+### Third-party assets
+
+The packages below are **not** covered by the MIT licence: they stay under their publishers’ terms (mostly the [Unity Asset Store EULA](https://unity.com/legal/as-terms)). To reuse them in another project, get them from their store page; Unity keeps their GUIDs, so a re-import restores the references.
+
+| Folder | Asset | Source | Licence |
+|---|---|---|---|
+| `Assets/Moon_Base` | [Sci Fi Moon Base](https://assetstore.unity.com/packages/slug/242575) | Unity Asset Store | Asset Store EULA |
+| `Assets/VattalusAssets` | [Sci Fi Cockpit (Bridge) 6](https://assetstore.unity.com/packages/slug/158497) — Vattalus Assets, with the [Starfield Skybox](https://assetstore.unity.com/packages/slug/92717) by Pulsar Bytes | Unity Asset Store | Asset Store EULA |
+| `Assets/DBK` | [Destroyed Building Kit](https://assetstore.unity.com/packages/slug/174899) — Loknar | Unity Asset Store | Asset Store EULA |
+| `Assets/YughuesFreeMetalMaterials` | [Yughues Free Metal Materials](https://assetstore.unity.com/packages/slug/12949) | Unity Asset Store | Asset Store EULA |
+| `Assets/ADG_Textures` | ADG Textures — Ground Vol. 1 | Unity Asset Store | Asset Store EULA |
+| `Assets/Lunar Landscape 3D` | [Free Lunar Landscape](https://assetstore.unity.com/packages/slug/132614) | Unity Asset Store | Asset Store EULA |
+| `Assets/F3_Corvette` | [Federation Corvette F3](https://assetstore.unity.com/packages/slug/79860) — CGPitbull | Unity Asset Store | Asset Store EULA |
+| `Assets/Forst` | Conifers [BOTD] — Forst | Unity Asset Store | Asset Store EULA |
+| `Assets/GrassFlowers` | [Grass Flowers Pack Free](https://assetstore.unity.com/packages/slug/138810) — ALP | Unity Asset Store | Asset Store EULA |
+| `Assets/Basic Metal Texture Pack` | [Basic Metal Texture Pack](https://assetstore.unity.com/packages/slug/37402) | Unity Asset Store | Asset Store EULA |
+| `Assets/Gogo Casual Pack` | [Casual Plants Lite Pack](https://assetstore.unity.com/packages/slug/303173) — Gogo Games | Unity Asset Store | Asset Store EULA |
+| `Assets/Ground materials FD` | Ground Materials FD — Fausto D. | Unity Asset Store | Asset Store EULA |
+| `Assets/Asteroids Pack` | Asteroids Pack | Unity Asset Store | Asset Store EULA |
+| `Assets/IgniteCoders` | [Simple Water Shader URP](https://assetstore.unity.com/packages/slug/191449) — IgniteCoders | Unity Asset Store | Asset Store EULA |
+| `Assets/Oculus Hands` | Oculus hand models — Meta | Oculus Integration samples | Oculus SDK licence |
+| `Assets/TextMesh Pro`<br>`Assets/Samples` | TextMesh Pro, XR Interaction Toolkit samples — Unity | Unity packages | Unity Companion Licence |
+| `Assets/Texture/Planet`<br>`Assets/Texture/SkyBox` | Planet and Milky Way textures — [Solar System Scope](https://www.solarsystemscope.com/textures/) | solarsystemscope.com | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
