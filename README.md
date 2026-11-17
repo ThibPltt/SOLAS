@@ -199,3 +199,9 @@ Included in the repository under their own licences:
 
 - `Assets/TextMesh Pro`, `Assets/Samples`: TextMesh Pro and the XR Interaction Toolkit samples, Unity packages under the Unity Companion Licence.
 - `Assets/Texture/Planet`, `Assets/Texture/SkyBox`: planet and Milky Way textures from [Solar System Scope](https://www.solarsystemscope.com/textures/), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+<details>
+<summary>🇫🇷 En bref</summary>
+
+Serious game pour apprendre l’astronomie en réalité virtuelle (Unity, C#, Meta Quest 3) : donner à un jeune public des éléments de culture scientifique sur le système solaire, en profitant de l’immersion pour faire ressentir l’immensité de l’espace. Chef de projet d’une équipe de 4 à l’ENSIM (2024 – 2025). Version 1.0 jouable sur Meta Quest et sur PC VR, dans les [Releases](https://github.com/ThibPltt/SOLAS/releases/latest). Fiche complète sur [thibautplatet.com](https://thibautplatet.com/projets/solas.html).
+</details>
