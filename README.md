@@ -11,6 +11,7 @@ Serious game for learning astronomy in VR.
 | **Dates** | 2024 – 2025 |
 | **Context** | virtual reality · project lead, team of 4 · ENSIM |
 | **Technologies** | VR · Unity · C# · XR Interaction Toolkit · Blender |
+| **Play it** | [v1.0 for Meta Quest (APK) and PC VR (Windows)](https://github.com/ThibPltt/SOLAS/releases/latest) |
 | **Video** | [Gameplay video on YouTube](https://www.youtube.com/watch?v=2curbw4u178) |
 | **Case study** | [thibautplatet.com/en/projects/solas.html](https://thibautplatet.com/en/projects/solas.html) |
 
@@ -158,11 +159,14 @@ A complete game, from the main menu to the final scene, played through in full b
 
 ## Run it
 
-Open the project with Unity **2022.3.50f1** (XR Interaction Toolkit 2.6, OpenXR), check the headset in *Project Settings › XR Plug-in Management*, open `Assets/Scenes/MainMenu.unity` and press **Play** with the headset connected. Each stop has its own scene in `Assets/Scenes/` (`Mars`, `MarsSurface`, `Jupiter`, `Lune`, `LuneSurface`, `Terre`, `TerreSurface`…), and the scripts are grouped by feature in `Assets/Scripts/` (`KeyPad`, `ChangementScene`, `VoixOff`, `Moon`, `Mars`, `Terre`, `Menu`…).
+- **Meta Quest (standalone):** download `SOLAS.apk` from the [latest release](https://github.com/ThibPltt/SOLAS/releases/latest) and install it with Meta Quest Developer Hub or `adb install -r SOLAS.apk` (developer mode enabled). The game then appears in *Library › Unknown sources*.
+- **PC VR (Windows):** download `SOLAS.zip` from the same release, unzip it, connect your headset to the PC (e.g. Meta Quest with Link) and run the game’s `.exe`.
+- **From the source:** open the project with Unity **2022.3.62f3** (XR Interaction Toolkit 2.6, OpenXR), import the [third-party packages](#third-party-assets) into the folders shown, check the headset in *Project Settings › XR Plug-in Management*, open `Assets/Scenes/MainMenu.unity` and press **Play** with the headset connected. For the Quest build, switch the platform to Android: OpenXR runs with *Meta Quest Support* on the Android tab, in *Multi-pass* render mode. Each stop has its own scene in `Assets/Scenes/` (`Mars`, `MarsSurface`, `Jupiter`, `Lune`, `LuneSurface`, `Terre`, `TerreSurface`…), and the scripts are grouped by feature in `Assets/Scripts/` (`KeyPad`, `ChangementScene`, `VoixOff`, `Moon`, `Mars`, `Terre`, `Menu`…).
+- **Unity version:** the project was developed with 2022.3.50f1 and moved to 2022.3.62f3 for v1.0, a version that includes Unity’s October 2025 security fix.
 
 ## Credits
 
-Project led by Thibaut Platet with Adélie Brunel, Arthur Lecureur and Pauline De Vittori, ENSIM (Interaction Personnes-Systèmes, 4th year). The full history comes from the team’s original repository, [Lecureur-Arthur/SOLAS](https://github.com/Lecureur-Arthur/SOLAS); its French README is kept in [Historic_README.md](Historic_README.md). Models, textures and sounds from the Unity Asset Store (lunar base, asteroids, ship, landscapes) keep their own licences.
+Project led by Thibaut Platet with Adélie Brunel, Arthur Lecureur and Pauline De Vittori, ENSIM (Interaction Personnes-Systèmes, 4th year). The full history comes from the team’s original repository, [Lecureur-Arthur/SOLAS](https://github.com/Lecureur-Arthur/SOLAS); its French README is kept in [Historic_README.md](Historic_README.md). The music of the three surfaces is by Pauline De Vittori and the voice-overs were recorded by the team. Models, textures and sounds from the Unity Asset Store (lunar base, asteroids, ship, landscapes) are not included in this repository and keep their own licences (see [Third-party assets](#third-party-assets)).
 
 ## Licence
 
@@ -170,7 +174,7 @@ The code and the original content of this repository (scripts, scenes, prefabs, 
 
 ### Third-party assets
 
-The packages below are **not** covered by the MIT licence: they stay under their publishers’ terms (mostly the [Unity Asset Store EULA](https://unity.com/legal/as-terms)). To reuse them in another project, get them from their store page; Unity keeps their GUIDs, so a re-import restores the references.
+The packages below are **not included** in this repository and are not covered by the MIT licence: they stay under their publishers’ terms (mostly the [Unity Asset Store EULA](https://unity.com/legal/as-terms)). To open the full project, get them from their store page and import them into the folder shown; Unity keeps their GUIDs, so the scenes find them again. The playable builds are in the [Releases](https://github.com/ThibPltt/SOLAS/releases/latest).
 
 | Folder | Asset | Source | Licence |
 |---|---|---|---|
@@ -179,7 +183,7 @@ The packages below are **not** covered by the MIT licence: they stay under their
 | `Assets/DBK` | [Destroyed Building Kit](https://assetstore.unity.com/packages/slug/174899) — Loknar | Unity Asset Store | Asset Store EULA |
 | `Assets/YughuesFreeMetalMaterials` | [Yughues Free Metal Materials](https://assetstore.unity.com/packages/slug/12949) | Unity Asset Store | Asset Store EULA |
 | `Assets/ADG_Textures` | ADG Textures — Ground Vol. 1 | Unity Asset Store | Asset Store EULA |
-| `Assets/Lunar Landscape 3D` | [Free Lunar Landscape](https://assetstore.unity.com/packages/slug/132614) | Unity Asset Store | Asset Store EULA |
+| `Assets/Lunar Landscape 3D` | [Free Lunar Landscape](https://assetstore.unity.com/packages/slug/132614) (the team’s own `BouttonRetourVaisseau3.fbx` stays in the folder) | Unity Asset Store | Asset Store EULA |
 | `Assets/F3_Corvette` | [Federation Corvette F3](https://assetstore.unity.com/packages/slug/79860) — CGPitbull | Unity Asset Store | Asset Store EULA |
 | `Assets/Forst` | Conifers [BOTD] — Forst | Unity Asset Store | Asset Store EULA |
 | `Assets/GrassFlowers` | [Grass Flowers Pack Free](https://assetstore.unity.com/packages/slug/138810) — ALP | Unity Asset Store | Asset Store EULA |
@@ -189,5 +193,9 @@ The packages below are **not** covered by the MIT licence: they stay under their
 | `Assets/Asteroids Pack` | Asteroids Pack | Unity Asset Store | Asset Store EULA |
 | `Assets/IgniteCoders` | [Simple Water Shader URP](https://assetstore.unity.com/packages/slug/191449) — IgniteCoders | Unity Asset Store | Asset Store EULA |
 | `Assets/Oculus Hands` | Oculus hand models — Meta | Oculus Integration samples | Oculus SDK licence |
-| `Assets/TextMesh Pro`<br>`Assets/Samples` | TextMesh Pro, XR Interaction Toolkit samples — Unity | Unity packages | Unity Companion Licence |
-| `Assets/Texture/Planet`<br>`Assets/Texture/SkyBox` | Planet and Milky Way textures — [Solar System Scope](https://www.solarsystemscope.com/textures/) | solarsystemscope.com | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| `Assets/SoundEffect/Keypad`<br>`Assets/SoundEffect/Spaceship` (doors, whooshes) | Keypad, door and ship sound effects | Free sound websites | Their sites’ terms |
+
+Included in the repository under their own licences:
+
+- `Assets/TextMesh Pro`, `Assets/Samples`: TextMesh Pro and the XR Interaction Toolkit samples, Unity packages under the Unity Companion Licence.
+- `Assets/Texture/Planet`, `Assets/Texture/SkyBox`: planet and Milky Way textures from [Solar System Scope](https://www.solarsystemscope.com/textures/), under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

@@ -72,3 +72,58 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Third-party packages (Unity Asset Store and others): not redistributed, see the README
+/Assets/Moon_Base/
+/Assets/Moon_Base.meta
+/Assets/VattalusAssets/
+/Assets/VattalusAssets.meta
+/Assets/DBK/
+/Assets/DBK.meta
+/Assets/YughuesFreeMetalMaterials/
+/Assets/YughuesFreeMetalMaterials.meta
+/Assets/ADG_Textures/
+/Assets/ADG_Textures.meta
+/Assets/F3_Corvette/
+/Assets/F3_Corvette.meta
+/Assets/Forst/
+/Assets/Forst.meta
+/Assets/GrassFlowers/
+/Assets/GrassFlowers.meta
+/Assets/Basic Metal Texture Pack/
+/Assets/Basic Metal Texture Pack.meta
+/Assets/Gogo Casual Pack/
+/Assets/Gogo Casual Pack.meta
+/Assets/Ground materials FD/
+/Assets/Ground materials FD.meta
+/Assets/Asteroids Pack/
+/Assets/Asteroids Pack.meta
+/Assets/IgniteCoders/
+/Assets/IgniteCoders.meta
+/Assets/Oculus Hands/
+/Assets/Oculus Hands.meta
+/Assets/Asteroids/
+/Assets/Asteroids.meta
+/Assets/Cyberpunk Car/
+/Assets/Cyberpunk Car.meta
+/Assets/Plants/
+/Assets/Plants.meta
+/Assets/UnityTechnologies/
+/Assets/UnityTechnologies.meta
+/Assets/SoundEffect/Door/
+/Assets/SoundEffect/Door.meta
+/Assets/SoundEffect/Keypad/
+/Assets/SoundEffect/Keypad.meta
+/Assets/SoundEffect/Spaceship/Door/
+/Assets/SoundEffect/Spaceship/Door.meta
+/Assets/SoundEffect/Spaceship/WhooshSpaceshipEntreeScene.wav
+/Assets/SoundEffect/Spaceship/WhooshSpaceshipEntreeScene.wav.meta
+/Assets/SoundEffect/Spaceship/spaceship-whoosh-2.wav
+/Assets/SoundEffect/Spaceship/spaceship-whoosh-2.wav.meta
+/Assets/SoundEffect/failure.mp3
+/Assets/SoundEffect/failure.mp3.meta
+/Assets/SoundEffect/success.mp3
+/Assets/SoundEffect/success.mp3.meta
+/Assets/Lunar Landscape 3D/*
+!/Assets/Lunar Landscape 3D/BouttonRetourVaisseau3.fbx
+!/Assets/Lunar Landscape 3D/BouttonRetourVaisseau3.fbx.meta
